@@ -3,7 +3,7 @@ from flask import Flask, request
 
 from datetime import datetime
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route('/')
 def hello():
